@@ -1,0 +1,41 @@
+.container-cantidad{
+    border-style: solid;
+    border-color: aqua;
+}
+
+.container-orden{
+    height: 250px;
+    border-style: solid;
+    border-color: aqua;
+}
+#Button-cal{
+padding: 10px;
+color:white;
+background-color: red;
+}
+
+#title-almacen{
+    text-align: center;
+    font-size: 75px;
+    color: rgb(147, 202, 238);
+}
+
+#subtitle-almacen{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#title-orden{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
