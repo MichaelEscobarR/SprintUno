@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
-    <script src="./scripts/script.js"></script>
-    <title>Compra</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Home</title>
 </head>
+
 <body>
-
-    <div class="title">
-        <h1 id= title-almacen> Almácen de computadores</h1>
-        <h2 id="subtitle-almacen">almácen de computadores</h2>
-    </div>
-    <br>
-
-
-            <div id="container-c" class="container-cantidad">
-                <div id="a">
-                    <label for="cantidad">Cantidad de computadores comprados</label>
-                    <input type="number" name="cantidad" id="cantidad">
-                    <br><br>
-                    <button id= "Button-cal" onclick="Calcular()">Calcular</button>
-                </div>
-            </div>
-            <br>
-
-            <div class="container-orden">
-                <h3 id=title-orden> Orden de compra</h3>
-                <img id="logo" src="./images/depositphotos_86423788-stock-illustration-computer-logo.jpg" alt=""><br>
-                <label for="valor-compra">Valor de compra:</label>
-                <br>
-                <input type="number" name="valor-compra" id="valor-compra">
-                <br>
-                <label for="valor-descuento">Valor de descuento:</label>
-                <br>
-                <input type="number" name="valor-descuento" id="valor-descuento">
-                <br>
-                <label for="total">Total:</label><br>
-                <input type="number" name="total" id="total">
-                <br><br>
-                <label id="msj-d"></label> <label id="vd"></label>
-            </div>
+    <header>
+        <img id="logo-p" src="./images/logop.jpg"></img>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="compras.html" target="_blank">Compras</a></li>
+        </ul>
+    </nav>
+    <main>
+        <table>
+            <tr>
+                <th>Procesadores</th>
+                <th>Tarjetas gráficas</th>
+                <th>Memorias RAM</th>
+            </tr>
+            <tr>
+                <td> <img id="CPU" src="./images/Procesadores.jpg" alt="" srcset=""></td>
+                <td><img id="versus" src="./images/AMDvsNvidia.jpg" alt=""></td>
+                <td><img id="Spectrix" src="./images/Spectrix.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><img id=intel-proc src="./images/Intel-Logo.png" alt=""></td>
+                <td><img id="amd-logo" src="./images/AMD-Logo.png" alt=""></td>
+                <td><img id="gskill" src="./images/G.SKILL.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><img id="ryzen" src="./images/ryzen-logo.jpg" alt=""></td>
+                <td><img id="nvidia-logo" src="./images/NVIDIA.png" alt=""></td>
+                <td><img id="hyperx" src="./images/HyperX.jpg" alt=""></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <div class="container f">
+        </div>
+        <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore eaque iste maxime sit sunt
+            distinctio. Totam, ratione est distinctio nam sed amet, porro aperiam iusto veritatis, illo ullam corrupti.
+        </p>
+    </footer>
 </body>
+
 </html>
