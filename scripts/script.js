@@ -8,9 +8,9 @@ function Calcular(){
 
     cantidad = document.getElementById("cantidad").value;
     valor = cantidad * 820000;
-    /* document.getElementById("container-p").style.display = "none"; */
-
-
+    document.getElementById("a").style.display = "none";
+    document.getElementById("container-c").style.display = "none";
+    
     if (valor>= 1640000 && valor<=3280000){
 
         descuento = valor *0.15;
