@@ -8,6 +8,8 @@ function Calcular(){
 
     cantidad = document.getElementById("cantidad").value;
     valor = cantidad * 820000;
+    /* document.getElementById("container-p").style.display = "none"; */
+
 
     if (valor>= 1640000 && valor<=3280000){
 
@@ -20,7 +22,6 @@ function Calcular(){
         document.getElementById("total").value= total;
         document.getElementById("msj-d").innerHTML = "Su descuento fue del";
         document.getElementById("vd").innerHTML = valord;
-
 
 
     }else if(valor>= 3280000 && valor<=6560000){
@@ -53,8 +54,7 @@ function Calcular(){
         document.getElementById("valor-compra").value= valor;
         document.getElementById("valor-descuento").value= 0;
         document.getElementById("total").value= valor;
-        document.getElementById("msj-d").innerHTML = "Su descuento fue del";
-        document.getElementById("vd").innerHTML = valord;
+        document.getElementById("msj-d").innerHTML = "No hay descuento para esta compra";
     }
 }
 
